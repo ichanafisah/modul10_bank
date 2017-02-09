@@ -94,8 +94,8 @@ public class welcome extends javax.swing.JFrame {
               new bank().setVisible(true);
           }else{
               javax.swing.JOptionPane.showMessageDialog(null, "Maaf PIN yang anda masukan salah, Coba Lagi");
+              this.setVisible(true);
           }
-          this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
